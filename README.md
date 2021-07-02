@@ -5,8 +5,8 @@
 2021-07-22 Update! 1.6.1! 
 Moved to Git!
 
-# Please, install style using Stylus extension, and then you will be able to select ponies using small gear icon in Stylus dropdown menu!
-![Pony Selection][pony_selection]
+## Please, install style using Stylus extension, and then you will be able to select ponies using small gear icon in Stylus dropdown menu!
+![Pony Selection][pony_selection =250x250]
 
 ## Screenshots
 ![Main Page Examples][main_page_examples]
