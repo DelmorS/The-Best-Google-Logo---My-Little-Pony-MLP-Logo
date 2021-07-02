@@ -1,102 +1,102 @@
 /* ==UserStyle==
-@name			The Best Google Logo - My Little Pony (MLP) Logo
-@namespace		github.com/openstyles/stylus
-@version		1.6.1
-@description	Allows you to see your favourite ponies as Google doodles on main and search pages!
-@author			Delmor_S
-@var			select	pony  "Select your Pony" [
-	"applejack:Applejack",
-	"coco:Coco Pommel",
-	"derpy:Derpy Hooves",
-	"discord:Discord",
-	"fluffle:Fluffle Puff",
-	"fluttershy:Fluttershy",
-	"octavia:Octavia",
-	"pinkie:Pinkie Pie",
-	"cadence:Princess Cadence",
-	"luna:Princess Luna",
-	"rainbow:Rainbow Dash",
-	"rarity:Rarity",
-	"starlight:Starlight Glimmer",
-	"twilight:Twilight Sparkle"
+@name           The Best Google Logo - My Little Pony (MLP) Logo
+@namespace      github.com/openstyles/stylus
+@version        1.6.1
+@description    Allows you to see your favourite ponies as Google doodles on main and search pages!
+@author         Delmor_S
+@var            select    pony  "Select your Pony" [
+    "applejack:Applejack",
+    "coco:Coco Pommel",
+    "derpy:Derpy Hooves",
+    "discord:Discord",
+    "fluffle:Fluffle Puff",
+    "fluttershy:Fluttershy",
+    "octavia:Octavia",
+    "pinkie:Pinkie Pie",
+    "cadence:Princess Cadence",
+    "luna:Princess Luna",
+    "rainbow:Rainbow Dash",
+    "rarity:Rarity",
+    "starlight:Starlight Glimmer",
+    "twilight:Twilight Sparkle"
 ]
 @preprocessor   stylus
 ==/UserStyle== */
 
 @-moz-document domain("google.co.uk"), domain("google.com.ng"), domain("google.as"), domain("google.ca"), domain("google.es"), domain("google.de"), domain("google.com.au"), domain("google.fr"), domain("google.it"), domain("google.co.jp"), domain("google.ru"), domain("google.com.ar"), domain("google.com.sg"), domain("google.co.cr"), domain("google.com.tw"), domain("google.com.tr"), domain("google.at"), domain("google.ba"), domain("google.com.br"), domain("google.bs"), domain("google.ch"), domain("google.cz"), domain("google.dk"), domain("google.com.eg"), domain("google.fi"), domain("google.com.hk"), domain("google.hr"), domain("google.gr"), domain("google.ie"), domain("google.co.id"), domain("google.co.in"), domain("google.co.il"), domain("google.co.kr"), domain("google.com.lb"), domain("google.com.mx"), domain("google.nl"), domain("google.no"), domain("google.co.nz"), domain("google.com.ph"), domain("google.pt"), domain("google.se"), domain("google.so"), domain("google.co.th"), domain("google.com.ua"), domain("google.co.ve"), domain("google.com.vn"), domain("google.com.gt"), domain("google.com.ec"), domain("google.be"), domain("google.cn"), domain("google.com.cu"), domain("google.pl"), domain("google.sk"), domain("google.cl"), domain("google.com"), domain("google.kz"), domain("google.si"), domain("google.ae") {
-	
+    
 /* All the logos were originally presented by deviantart.com/THEPATROLLPL and then remade by deviantart.com/xxmaxterxx */
 /* The only thing I did is CSS/style, so all the thanks go to them!  */
 
 if pony == applejack {
-	:root {
-		--doodleImage: url("https://i.ibb.co/FVw8PGB/apple-jack-google-logo-2016-install-guide-by-xxmaxterxx-d9ttfjg.png");
-	}
+    :root {
+        --doodleImage: url("https://i.ibb.co/FVw8PGB/apple-jack-google-logo-2016-install-guide-by-xxmaxterxx-d9ttfjg.png");
+    }
 }
 if pony == coco {
-	:root {
-		--doodleImage: url("https://i.ibb.co/c60KNGk/coco-pommel-google-logo-2016-install-guide-by-xxmaxterxx-da0q517.png");
-	}
+    :root {
+        --doodleImage: url("https://i.ibb.co/c60KNGk/coco-pommel-google-logo-2016-install-guide-by-xxmaxterxx-da0q517.png");
+    }
 }
 if pony == derpy {
-	:root {
-		--doodleImage: url("https://i.ibb.co/hVSK2yj/derpy-hooves-google-logo-2016-install-guide-by-xxmaxterxx-da0lmxv.png");
-	}
+    :root {
+        --doodleImage: url("https://i.ibb.co/hVSK2yj/derpy-hooves-google-logo-2016-install-guide-by-xxmaxterxx-da0lmxv.png");
+    }
 }
 if pony == discord {
-	:root {
-		--doodleImage: url("https://i.ibb.co/tZnFbYp/discord-google-logo-install-guide-by-xxmaxterxx-dazp1fa.png");
-	}
+    :root {
+        --doodleImage: url("https://i.ibb.co/tZnFbYp/discord-google-logo-install-guide-by-xxmaxterxx-dazp1fa.png");
+    }
 }
 if pony == fluffle {
-	:root {
-		--doodleImage: url("https://i.ibb.co/DQr2NvV/fluffle-puff-google-logo-install-guide-by-xxmaxterxx-dayl6ac.png");
-	}
+    :root {
+        --doodleImage: url("https://i.ibb.co/DQr2NvV/fluffle-puff-google-logo-install-guide-by-xxmaxterxx-dayl6ac.png");
+    }
 }
 if pony == fluttershy {
-	:root {
-		--doodleImage: url("https://i.ibb.co/6rMYrGN/fluttershy-google-logo-2016-install-guide-by-xxmaxterxx-d9ttz80.png");
-	}
+    :root {
+        --doodleImage: url("https://i.ibb.co/6rMYrGN/fluttershy-google-logo-2016-install-guide-by-xxmaxterxx-d9ttz80.png");
+    }
 }
 if pony == octavia {
-	:root {
-		--doodleImage: url("https://i.ibb.co/FxD4J1z/octavia-google-logo-install-guide-by-xxmaxterxx-dazgqim.png");
-	}
+    :root {
+        --doodleImage: url("https://i.ibb.co/FxD4J1z/octavia-google-logo-install-guide-by-xxmaxterxx-dazgqim.png");
+    }
 }
 if pony == pinkie {
-	:root {
-		--doodleImage: url("https://i.ibb.co/xCR0fPP/pinkie-pie-google-logo-2016-install-guide-by-xxmaxterxx-d9tu3ez.png");
-	}
+    :root {
+        --doodleImage: url("https://i.ibb.co/xCR0fPP/pinkie-pie-google-logo-2016-install-guide-by-xxmaxterxx-d9tu3ez.png");
+    }
 }
 if pony == cadence {
-	:root {
-		--doodleImage: url("https://i.ibb.co/mhmZHNf/princess-cadence-google-logo-install-guide-by-xxmaxterxx-daz4idh.png");
-	}
+    :root {
+        --doodleImage: url("https://i.ibb.co/mhmZHNf/princess-cadence-google-logo-install-guide-by-xxmaxterxx-daz4idh.png");
+    }
 }
 if pony == luna {
-	:root {
-		--doodleImage: url("https://i.ibb.co/ZT9GDcG/princess-luna-google-logo-2016-install-guide-by-xxmaxterxx-d9u0mnx.png");
-	}
+    :root {
+        --doodleImage: url("https://i.ibb.co/ZT9GDcG/princess-luna-google-logo-2016-install-guide-by-xxmaxterxx-d9u0mnx.png");
+    }
 }
 if pony == rainbow {
-	:root {
-		--doodleImage: url("https://i.ibb.co/KFns488/rainbow-dash-google-logo-install-guide-by-xxmaxterxx-dazorgd.png");
-	}
+    :root {
+        --doodleImage: url("https://i.ibb.co/KFns488/rainbow-dash-google-logo-install-guide-by-xxmaxterxx-dazorgd.png");
+    }
 }
 if pony == rarity {
-	:root {
-		--doodleImage: url("https://i.ibb.co/kMrqVDt/rarity-google-logo-2016-install-guide-by-xxmaxterxx-d9tu5cy.png");
-	}
+    :root {
+        --doodleImage: url("https://i.ibb.co/kMrqVDt/rarity-google-logo-2016-install-guide-by-xxmaxterxx-d9tu5cy.png");
+    }
 }
 if pony == starlight {
-	:root {
-		--doodleImage: url("https://i.ibb.co/QHxKhvc/starlight-glimmer-google-logo-install-guide-by-xxmaxterxx-daxs23s-fullview.png");
-	}
+    :root {
+        --doodleImage: url("https://i.ibb.co/QHxKhvc/starlight-glimmer-google-logo-install-guide-by-xxmaxterxx-daxs23s-fullview.png");
+    }
 }
 if pony == twilight {
-	:root {
-		--doodleImage: url("https://i.ibb.co/LJGFh1V/twilight-sparkle-google-logo-2016-install-guide-by-xxmaxterxx-d9tt9jo.png");
-	}
+    :root {
+        --doodleImage: url("https://i.ibb.co/LJGFh1V/twilight-sparkle-google-logo-2016-install-guide-by-xxmaxterxx-d9tt9jo.png");
+    }
 }
 
 /*******************/
@@ -105,44 +105,44 @@ if pony == twilight {
 
 /* Removing Google doodle */
 div.logo a#logo img {
-	display: none !important;
+    display: none !important;
 }
 
 /* Adding our own doodle */
 a#logo {
-	width: 159px !important;
-	height: 60px !important;
-	
-	max-width: 159px !important;
-	min-width: 159px !important;
-	
-	max-height: 60px !important;
-	min-height: 60px !important;
-	
-	background-image: var(--doodleImage) !important;
-	background-position: 0px 0px !important;
-	background-size: 159px 60px !important;
-	background-repeat: no-repeat !important;
-	
-	margin-left: 0px !important;
-	margin-top: 0px !important;
+    width: 159px !important;
+    height: 60px !important;
+    
+    max-width: 159px !important;
+    min-width: 159px !important;
+    
+    max-height: 60px !important;
+    min-height: 60px !important;
+    
+    background-image: var(--doodleImage) !important;
+    background-position: 0px 0px !important;
+    background-size: 159px 60px !important;
+    background-repeat: no-repeat !important;
+    
+    margin-left: 0px !important;
+    margin-top: 0px !important;
 }
 
 /* Align our doodle */
 div.logo {
-	--margin-left: 0px !important;
-	--margin-top: 0px !important;
-	
-	--padding-left: 0px !important;
-	--padding-right: 0px !important;
-	
-	top: -14px !important;
-	left: -190px !important;
+    --margin-left: 0px !important;
+    --margin-top: 0px !important;
+    
+    --padding-left: 0px !important;
+    --padding-right: 0px !important;
+    
+    top: -14px !important;
+    left: -190px !important;
 }
 
 /* Align search textbox */
 form#tsf.tsf .A8SBwf {
-	left: 50px !important;
+    left: 50px !important;
 }
 
 
@@ -152,22 +152,22 @@ form#tsf.tsf .A8SBwf {
 
 /* Removing Google doodle */
 svg.TYpZOd {
-	display: none !important;
+    display: none !important;
 }
 
 /* Adding our own doodle */
 a.F1hUFe.jbTlie {
-	width: 159px !important;
-	height: 60px !important;
+    width: 159px !important;
+    height: 60px !important;
 
-	background-image: var(--doodleImage) !important;
-	background-position: 0px 0px !important;
-	background-size: 159px 60px !important;
-	background-repeat: no-repeat !important;
+    background-image: var(--doodleImage) !important;
+    background-position: 0px 0px !important;
+    background-size: 159px 60px !important;
+    background-repeat: no-repeat !important;
 
-	padding: 0px 0px 0px 0px !important;
-	
-	top: -8px !important;
+    padding: 0px 0px 0px 0px !important;
+    
+    top: -8px !important;
 }
 
 /*******************/
@@ -176,7 +176,7 @@ a.F1hUFe.jbTlie {
 
 /* Removing Google doodle */
 div#logocont.logocont a#logo img {
-	display: none !important;
+    display: none !important;
 }
 
 
@@ -186,19 +186,19 @@ div#logocont.logocont a#logo img {
 
 /* Replace doodle */
 img.lnXdpd {
-	width: 0px !important;
-	height: 0px !important;
-	
-	padding-top: 174px !important; 
-	padding-left: 450px !important;
-	
-	background: var(--doodleImage) no-repeat center !important; 
-	background-size: 450px 174px !important;
-	background-repeat: no-repeat !important;
-	
-	position: relative !important;	
-	overflow: visible !important;
-	
-	top: -85px !important;
+    width: 0px !important;
+    height: 0px !important;
+    
+    padding-top: 174px !important; 
+    padding-left: 450px !important;
+    
+    background: var(--doodleImage) no-repeat center !important; 
+    background-size: 450px 174px !important;
+    background-repeat: no-repeat !important;
+    
+    position: relative !important;    
+    overflow: visible !important;
+    
+    top: -85px !important;
 }
 }
