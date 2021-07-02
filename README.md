@@ -6,11 +6,15 @@
 Moved to Git!
 
 # Please, install style using Stylus extension, and then you will be able to select ponies using small gear icon in Stylus dropdown menu!
+![Pony Selection][pony_selection]
+
+## Screenshots
+![Main Page Examples][main_page_examples]
 
 If you find some bugs, errors or you have some wishes, please, write me: sergeydelmor@gmail.com
 
 This is a compilation of all the pony doodles originally created by [ThePatrollPL](http://userstyles.org/users/182094) and then remade by [xxmaxterxx](https://www.deviantart.com/xxmaxterxx).
 
-Improvements:
+## Improvements
 * Works with all the latest Google pages' updates;
 * Improved positioning and scaling of logos for search pages.
