@@ -141,7 +141,8 @@ div.logo {
 }
 
 /* Align search textbox */
-div#searchform > form#tsf.tsf div .A8SBwf {
+div#searchform > form#tsf.tsf div .A8SBwf,
+div#searchform div form#tsf.tsf div .A8SBwf {
 	left: 50px !important;
 }
 
