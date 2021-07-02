@@ -16,6 +16,7 @@
     "cadence:Princess Cadence",
     "luna:Princess Luna",
     "rainbow:Rainbow Dash",
+    "rarity:Rarity",
     "starlight:Starlight Glimmer",
     "twilight:Twilight Sparkle"
 ]
@@ -79,6 +80,11 @@ if pony == luna {
 if pony == rainbow {
 	:root {
 		--doodleImage: url("https://i.ibb.co/KFns488/rainbow-dash-google-logo-install-guide-by-xxmaxterxx-dazorgd.png");
+	}
+}
+if pony == rarity {
+	:root {
+		--doodleImage: url("https://i.ibb.co/kMrqVDt/rarity-google-logo-2016-install-guide-by-xxmaxterxx-d9tu5cy.png");
 	}
 }
 if pony == starlight {
