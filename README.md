@@ -1,6 +1,6 @@
 # The Best Google Logo - My Little Pony (MLP) Logo
 
-<a href="https://github.com/DelmorS/The-Best-Google-Logo---My-Little-Pony-MLP-Logo/raw/master/MLP_Google_Logo.user.css" style="font-size: 14px">LINK TO INSTALL STYLE</a>
+<a href="https://github.com/DelmorS/The-Best-Google-Logo---My-Little-Pony-MLP-Logo/raw/master/MLP_Google_Logo.user.css">LINK TO INSTALL STYLE</a>
 
 2021-07-22 Update! 1.6.1! 
 Moved to Git!
@@ -18,5 +18,9 @@ This is a compilation of all the pony doodles originally created by [ThePatrollP
 ## Improvements
 * Works with all the latest Google pages' updates;
 * Improved positioning and scaling of logos for search pages.
+
+## Credits
+* [ThePatrollPL](http://userstyles.org/users/182094) - creation of all the original MLP Google doodles, initial styles with separate ponies on Userstyles.org
+* [xxmaxterxx](https://www.deviantart.com/xxmaxterxx) - remake of MLP Google doodles to fit modern Google style
 
 [main_page_examples]: docs/images/main_page_examples.png "Main Page Examples"
