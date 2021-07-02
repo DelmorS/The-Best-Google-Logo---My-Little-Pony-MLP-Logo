@@ -141,7 +141,7 @@ div.logo {
 }
 
 /* Align search textbox */
-form#tsf.tsf .A8SBwf {
+div#searchform > form#tsf.tsf div .A8SBwf {
 	left: 50px !important;
 }
 
@@ -168,6 +168,10 @@ a.F1hUFe.jbTlie {
 	padding: 0px 0px 0px 0px !important;
 	
 	top: -8px !important;
+}
+
+form#sf > div {
+	left: 28px !important;
 }
 
 /*******************/
@@ -200,5 +204,28 @@ img.lnXdpd {
 	overflow: visible !important;
 	
 	top: -85px !important;
+}
+
+/* Replace doodle */
+div#lga div div#hplogo {
+	width: 0px !important;
+	height: 0px !important;
+	
+	padding-top: 174px !important; 
+	padding-left: 450px !important;
+	
+	background: var(--doodleImage) no-repeat center !important; 
+	background-size: 450px 174px !important;
+	background-repeat: no-repeat !important;
+	
+	position: relative !important;	
+	overflow: visible !important;
+	
+	top: -85px !important;
+}
+
+div#lga div div#hplogo > div {
+	top: 0px !important;
+	left: -150px !important;
 }
 }
