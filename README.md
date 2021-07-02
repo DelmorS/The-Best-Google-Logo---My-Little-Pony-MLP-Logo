@@ -1,12 +1,12 @@
 # The Best Google Logo - My Little Pony (MLP) Logo
 
-[LINK TO INSTALL STYLE](https://github.com/DelmorS/The-Best-Google-Logo---My-Little-Pony-MLP-Logo/raw/master/MLP_Google_Logo.user.css)
+## [LINK TO INSTALL STYLE](https://github.com/DelmorS/The-Best-Google-Logo---My-Little-Pony-MLP-Logo/raw/master/MLP_Google_Logo.user.css)
 
 2021-07-22 Update! 1.6.1! 
 Moved to Git!
 
 ## Please, install style using Stylus extension, and then you will be able to select ponies using small gear icon in Stylus dropdown menu!
-<img src="https://github.com/DelmorS/The-Best-Google-Logo---My-Little-Pony-MLP-Logo/raw/master/docs/images/pony_selection.png" width="250" height="250"/>
+<img src="https://github.com/DelmorS/The-Best-Google-Logo---My-Little-Pony-MLP-Logo/raw/master/docs/images/pony_selection.png" width="300" height="300"/>
 
 ## Screenshots
 ![Main Page Examples][main_page_examples]
