@@ -18,3 +18,6 @@ This is a compilation of all the pony doodles originally created by [ThePatrollP
 ## Improvements
 * Works with all the latest Google pages' updates;
 * Improved positioning and scaling of logos for search pages.
+
+[pony_selection]: docs/images/pony_selection.png "Pony Selection"
+[main_page_examples]: docs/images/main_page_examples.png "Main Page Examples"
