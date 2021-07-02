@@ -1,9 +1,24 @@
 /* ==UserStyle==
 @name           The Best Google Logo - My Little Pony (MLP) Logo
 @namespace      github.com/openstyles/stylus
-@version        1.6.0
+@version        1.6.1
 @description    Allows you to see your favourite ponies as Google doodles on main and search pages!
 @author         Delmor_S
+@var            select    pony  "Select your Pony" [
+    "applejack:Applejack",
+    "coco:Coco Pommel",
+    "derpy:Derpy Hooves",
+    "discord:Discord",
+    "fluffle:Fluffle Puff",
+    "fluttershy:Fluttershy",
+    "octavia:Octavia",
+    "pinkie:Pinkie Pie",
+    "cadence:Princess Cadence",
+    "luna:Princess Luna",
+    "rainbow:Rainbow Dash",
+    "starlight:Starlight Glimmer",
+    "twilight:Twilight Sparkle"
+]
 @preprocessor   stylus
 ==/UserStyle== */
 
@@ -11,6 +26,71 @@
 /* All the logos were originally presented by deviantart.com/THEPATROLLPL and then remade by deviantart.com/xxmaxterxx */
 /* The only thing I did is CSS/style, so all the thanks go to them!  */
 
+if pony == applejack {
+	:root {
+		--doodleImage: url("https://i.ibb.co/FVw8PGB/apple-jack-google-logo-2016-install-guide-by-xxmaxterxx-d9ttfjg.png");
+	}
+}
+if pony == coco {
+	:root {
+		--doodleImage: url("https://i.ibb.co/c60KNGk/coco-pommel-google-logo-2016-install-guide-by-xxmaxterxx-da0q517.png");
+	}
+}
+if pony == derpy {
+	:root {
+		--doodleImage: url("https://i.ibb.co/hVSK2yj/derpy-hooves-google-logo-2016-install-guide-by-xxmaxterxx-da0lmxv.png");
+	}
+}
+if pony == discord {
+	:root {
+		--doodleImage: url("https://i.ibb.co/tZnFbYp/discord-google-logo-install-guide-by-xxmaxterxx-dazp1fa.png");
+	}
+}
+if pony == fluffle {
+	:root {
+		--doodleImage: url("https://i.ibb.co/DQr2NvV/fluffle-puff-google-logo-install-guide-by-xxmaxterxx-dayl6ac.png");
+	}
+}
+if pony == fluttershy {
+	:root {
+		--doodleImage: url("https://i.ibb.co/6rMYrGN/fluttershy-google-logo-2016-install-guide-by-xxmaxterxx-d9ttz80.png");
+	}
+}
+if pony == octavia {
+	:root {
+		--doodleImage: url("https://i.ibb.co/FxD4J1z/octavia-google-logo-install-guide-by-xxmaxterxx-dazgqim.png");
+	}
+}
+if pony == pinkie {
+	:root {
+		--doodleImage: url("https://i.ibb.co/xCR0fPP/pinkie-pie-google-logo-2016-install-guide-by-xxmaxterxx-d9tu3ez.png");
+	}
+}
+if pony == cadence {
+	:root {
+		--doodleImage: url("https://i.ibb.co/mhmZHNf/princess-cadence-google-logo-install-guide-by-xxmaxterxx-daz4idh.png");
+	}
+}
+if pony == luna {
+	:root {
+		--doodleImage: url("https://i.ibb.co/ZT9GDcG/princess-luna-google-logo-2016-install-guide-by-xxmaxterxx-d9u0mnx.png");
+	}
+}
+if pony == rainbow {
+	:root {
+		--doodleImage: url("https://i.ibb.co/KFns488/rainbow-dash-google-logo-install-guide-by-xxmaxterxx-dazorgd.png");
+	}
+}
+if pony == starlight {
+	:root {
+		--doodleImage: url("https://i.ibb.co/QHxKhvc/starlight-glimmer-google-logo-install-guide-by-xxmaxterxx-daxs23s-fullview.png");
+	}
+}
+if pony == twilight {
+	:root {
+		--doodleImage: url("https://i.ibb.co/LJGFh1V/twilight-sparkle-google-logo-2016-install-guide-by-xxmaxterxx-d9tt9jo.png");
+	}
+}
 
 /*******************/
 /*** SEARCH PAGE ***/
@@ -32,7 +112,7 @@ a#logo {
     max-height: 60px !important;
     min-height: 60px !important;
     
-    background-image: url("https://i.ibb.co/FVw8PGB/apple-jack-google-logo-2016-install-guide-by-xxmaxterxx-d9ttfjg.png") !important;
+    background-image: var(--doodleImage) !important;
     background-position: 0px 0px !important;
     background-size: 159px 60px !important;
     background-repeat: no-repeat !important;
@@ -73,7 +153,7 @@ a.F1hUFe.jbTlie {
     width: 159px !important;
     height: 60px !important;
 
-    background-image: url("https://i.ibb.co/FVw8PGB/apple-jack-google-logo-2016-install-guide-by-xxmaxterxx-d9ttfjg.png") !important;
+    background-image: var(--doodleImage) !important;
     background-position: 0px 0px !important;
     background-size: 159px 60px !important;
     background-repeat: no-repeat !important;
@@ -105,7 +185,7 @@ img.lnXdpd {
     padding-top: 174px !important; 
     padding-left: 450px !important;
     
-    background: url("https://i.ibb.co/FVw8PGB/apple-jack-google-logo-2016-install-guide-by-xxmaxterxx-d9ttfjg.png") no-repeat center !important; 
+    background: var(--doodleImage) no-repeat center !important; 
     background-size: 450px 174px !important;
     background-repeat: no-repeat !important;
     
