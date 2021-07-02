@@ -8,6 +8,8 @@ Moved to Git!
 ## Please, install style using Stylus extension, and then you will be able to select ponies using small gear icon in Stylus dropdown menu!
 <img src="https://github.com/DelmorS/The-Best-Google-Logo---My-Little-Pony-MLP-Logo/raw/master/docs/images/pony_selection.png" width="300" height="300"/>
 
+<a href="https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en">Link to Stylus Extension in Chrome Web Store</a>
+
 ## Screenshots
 ![Main Page Examples][main_page_examples]
 ![Search Page Examples][search_page_examples]
