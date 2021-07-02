@@ -10,6 +10,7 @@ Moved to Git!
 
 ## Screenshots
 ![Main Page Examples][main_page_examples]
+![Search Page Examples][search_page_examples]
 
 If you find some bugs, errors or you have some wishes, please, write me: sergeydelmor@gmail.com
 
@@ -24,3 +25,4 @@ This is a compilation of all the pony doodles originally created by [ThePatrollP
 * [xxmaxterxx](https://www.deviantart.com/xxmaxterxx) - remake of MLP Google doodles to fit modern Google style
 
 [main_page_examples]: docs/images/main_page_examples.png "Main Page Examples"
+[search_page_examples]: docs/images/search_page_examples.png "Search Page Examples"
