@@ -1,5 +1,7 @@
 # The Best Google Logo - My Little Pony (MLP) Logo
 
+[LINK TO INSTALL STYLE](https://github.com/DelmorS/The-Best-Google-Logo---My-Little-Pony-MLP-Logo/raw/master/MLP_Google_Logo.user.css)
+
 2021-07-22 Update! 1.6! 
 Moved to Git!
 
