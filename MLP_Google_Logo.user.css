@@ -109,6 +109,10 @@ div.logo a#logo img {
 	display: none !important;
 }
 
+div.logo  svg {
+    	display: none !important;
+}
+
 /* Adding our own doodle */
 form#tsf > div > div > div.logo > a#logo {
 	width: 159px !important;
