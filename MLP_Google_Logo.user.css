@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			The Best Google Logo - My Little Pony (MLP) Logo
 @namespace		github.com/openstyles/stylus
-@version		1.6.4
+@version		1.6.5
 @description	Allows you to see your favourite ponies as Google doodles on main and search pages!
 @author			Delmor_S
 @var			select	pony  "Select your Pony" [
@@ -110,7 +110,7 @@ div.logo a#logo img {
 }
 
 div.logo  svg {
-    	display: none !important;
+	display: none !important;
 }
 
 /* Adding our own doodle */
@@ -248,6 +248,7 @@ form#tsf > div > div > h1 > a#logo {
 /*****************/
 
 /* Replace doodle */
+svg.lnXdpd,
 img.lnXdpd {
 	width: 0px !important;
 	height: 0px !important;
