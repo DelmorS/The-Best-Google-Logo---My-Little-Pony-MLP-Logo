@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			The Best Google Logo - My Little Pony (MLP) Logo
 @namespace		github.com/openstyles/stylus
-@version		1.6.5
+@version		1.6.6
 @description	Allows you to see your favourite ponies as Google doodles on main and search pages!
 @author			Delmor_S
 @var			select	pony  "Select your Pony" [
@@ -23,10 +23,10 @@
 @preprocessor   stylus
 ==/UserStyle== */
 
-@-moz-document domain("google.co.uk"), domain("google.com.ng"), domain("google.as"), domain("google.ca"), domain("google.es"), domain("google.de"), domain("google.com.au"), domain("google.fr"), domain("google.it"), domain("google.co.jp"), domain("google.ru"), domain("google.com.ar"), domain("google.com.sg"), domain("google.co.cr"), domain("google.com.tw"), domain("google.com.tr"), domain("google.at"), domain("google.ba"), domain("google.com.br"), domain("google.bs"), domain("google.ch"), domain("google.cz"), domain("google.dk"), domain("google.com.eg"), domain("google.fi"), domain("google.com.hk"), domain("google.hr"), domain("google.gr"), domain("google.ie"), domain("google.co.id"), domain("google.co.in"), domain("google.co.il"), domain("google.co.kr"), domain("google.com.lb"), domain("google.com.mx"), domain("google.nl"), domain("google.no"), domain("google.co.nz"), domain("google.com.ph"), domain("google.pt"), domain("google.se"), domain("google.so"), domain("google.co.th"), domain("google.com.ua"), domain("google.co.ve"), domain("google.com.vn"), domain("google.com.gt"), domain("google.com.ec"), domain("google.be"), domain("google.cn"), domain("google.com.cu"), domain("google.pl"), domain("google.sk"), domain("google.cl"), domain("google.com"), domain("google.kz"), domain("google.si"), domain("google.ae") {
-	
+@-moz-document regexp(".*google.*") {
+
 /* All the logos were originally presented by deviantart.com/THEPATROLLPL and then remade by deviantart.com/xxmaxterxx */
-/* The only thing I did is CSS/style, so all the thanks go to them!  */
+/* The only thing I did is CSS/style, so all the credit goes to them!  */
 
 if pony == applejack {
 	:root {
@@ -264,6 +264,11 @@ img.lnXdpd {
 	overflow: visible !important;
 	
 	top: -85px !important;
+}
+
+/* Hide doodle for Chromium browsers */
+svg.lnXdpd path {
+    display: none !important;
 }
 
 /* Replace doodle */
