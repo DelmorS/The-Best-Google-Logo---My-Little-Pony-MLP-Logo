@@ -2,7 +2,8 @@
 
 <a href="https://github.com/DelmorS/The-Best-Google-Logo---My-Little-Pony-MLP-Logo/raw/master/MLP_Google_Logo.user.css">LINK TO INSTALL STYLE</a>
 
-2022-12-03 - Version 1.6.3 
+2025-06-04 - Version 1.6.7
+Added second hosting for images, if default one is not working for you.
 
 ## Please, install style using Stylus extension, and then you will be able to select ponies using small gear icon in Stylus dropdown menu!
 <img src="https://github.com/DelmorS/The-Best-Google-Logo---My-Little-Pony-MLP-Logo/raw/master/docs/images/pony_selection.png" width="300" height="300"/>
