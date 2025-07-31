@@ -1,6 +1,6 @@
 # The Best Google Logo - My Little Pony (MLP) Logo
 
-<a href="https://github.com/DelmorS/The-Best-Google-Logo---My-Little-Pony-MLP-Logo/raw/master/MLP_Google_Logo.user.css">LINK TO INSTALL STYLE</a>
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://github.com/DelmorS/The-Best-Google-Logo---My-Little-Pony-MLP-Logo/raw/master/MLP_Google_Logo.user.css)
 
 2025-06-04 - Version 1.6.7
 Added second hosting for images, if default one is not working for you.
